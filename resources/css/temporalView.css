@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(http://localhost/storage/Fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: grid;
+    place-content: center;
+}
+
+main {
+    background-color: rgba(0, 0, 0, 0.2);
+    border: rgba(0, 0, 0, 0.05) solid 2px;
+    box-shadow: 5px 5px 20px -10px black;
+    -webkit-backdrop-filter: blur(30px);
+    backdrop-filter: blur(30px);
+    border-radius: 15px;
+    max-width: 501px;
+    color: white;
+    padding: 50px;
+    width: calc(100% - 40px); /* ✅ evita que el margin + padding sumen más de 100% */
+    min-width: 260px;
+    margin: 20px;
+}
+main h1 {
+    margin-bottom: 20px;
+}
+main p {
+    color: rgb(220, 220, 220);
+    text-align: justify;
+}

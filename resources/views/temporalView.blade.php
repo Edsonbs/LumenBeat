@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LunarBeat</title>
+    @vite(['resources/css/temporalView.css'])
+</head>
+
+<body>
+    <main>
+        <h1>Bienvenid@ a LunarBeat</h1>
+        <p>La aplicación web está en construcción actualmente.</p>
+        <p>Se tratará de una aplicación de música en streaming. Es un proyecto personal que estoy desarrollando y que recibirá soporte según la demanda que tenga.</p>
+    </main>
+</body>
+
+</html>
